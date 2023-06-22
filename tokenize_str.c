@@ -154,7 +154,7 @@ char *get_next_word(char *str, char *delims)
 	int pendin = 0;
 	int j = 0;
 
-	while (*(str + i))
+	while (*(str + j))
 	{
 		if (is_delim(str[j], delims))
 			pendin = 1;
